@@ -43,7 +43,7 @@ class PhysicsSimulator:
         try:
             # Reinitialize Genesis for each simulation
             if gs._initialized:
-                gs.clear()
+                gs.destroy()
             self._init_genesis()
             
             # Update the prompt with selected mesh if available

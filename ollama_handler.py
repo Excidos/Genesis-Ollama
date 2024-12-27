@@ -473,7 +473,8 @@ class OllamaHandler:
             mesh_paths = [
                 self.mesh_base_path,
                 os.path.join(os.path.dirname(__file__), "meshes"),
-                "/usr/local/lib/python3.9/site-packages/genesis/assets/meshes"
+                "/usr/local/lib/python3.9/site-packages/genesis/assets/meshes",
+                "/Users/winsonchen/miniconda3/envs/genesis/lib/python3.11/site-packages/genesis/assets/meshes"
             ]
             
             for base_path in mesh_paths:
